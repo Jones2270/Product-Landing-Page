@@ -1,1 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC Document Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+                <img 
+                    src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Fcar-logo-template-black-white_619470-312.jpg%3Fw%3D2000&tbnid=cYAVKGkgrYKhCM&vet=12ahUKEwigntKO8-uCAxVGTEEAHV4DDVAQxiAoBnoECAAQHQ..i&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fcar-logo-template-black-white_45324183.htm&docid=XPg2YMdFUUb9mM&w=2000&h=2000&itg=1&q=car%20logo&client=safari&ved=2ahUKEwigntKO8-uCAxVGTEEAHV4DDVAQxiAoBnoECAAQHQ" 
+                    alt="logo"
+                    id="header-img"
+                />
+                <span class="the-product">Classic Cars</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#makes" class="nav-link">Makes</a></li>
+                <li><a href="#models" class="nav-link">Models</a></li>
+                <li><a href="#for_sale" class="nav-link">For Sale</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="email-section">
+        <h2>Motoring Classics</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input 
+            id="email"
+            type="email"
+            required
+            placeholder="Enter your email address"
+            name="email"
+            />
+            <input type="submit" id="submit" value="GET STARTED">
+        </form>
+    </section>
 
+    <section id="features">
+        <div class="feature">
+            <i class="ri-car-fill ri-4x icon"></i>
+            <div>
+                <h2>Something Classics</h2>
+                <p>Write somthing here about classic cars</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-car-fill ri-4x icon"></i>
+            <div>
+                <h2>Something Classics</h2>
+                <p>Write somthing here about classic cars</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-car-fill ri-4x icon"></i>
+            <div>
+                <h2>Something Classics</h2>
+                <p>Write somthing here about classic cars</p>
+            </div>
+        </div>
+    </section>
+    <section id="resto">
+        <iframe 
+            id="video"
+            height="315" 
+            src="https://www.youtube.com/embed/1DNkokKfMMY?si=cyvT73aFiZLnB0Jj" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
+    </section>
+    <section id="for_sale">
+        <h2>For Sale</h2>
+        <div class="product-cards">
+            <!-- CAR ONE-->
+            <div class="card">
+                <div class="product-image product1"></div>
+                <div class="inner-card">
+                    <div class="author">A N Other</div>
+                    <h1 class="header">Car Title</h1>
+                    <p class="content">this is a summary</p>
+                    <div class="flex">
+                        <p class="main-price">£30,000</p>
+                        <p class="old-price">£35,000</p>
+                    </div>
+                    <button class="add">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product-image product1"></div>
+                <div class="inner-card">
+                    <div class="author">A N Other</div>
+                    <h1 class="header">Car Title</h1>
+                    <p class="content">this is a summary</p>
+                    <div class="flex">
+                        <p class="main-price">£30,000</p>
+                        <p class="old-price">£35,000</p>
+                    </div>
+                    <button class="add">Add to Cart</button>
+            </div>
+            <div class="card">
+                <div class="product-image product1"></div>
+                <div class="inner-card">
+                    <div class="author">A N Other</div>
+                    <h1 class="header">Car Title</h1>
+                    <p class="content">this is a summary</p>
+                    <div class="flex">
+                        <p class="main-price">£30,000</p>
+                        <p class="old-price">£35,000</p>
+                    </div>
+                    <button class="add">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
