@@ -10,6 +10,7 @@
     --button: #ff8906;
     --button-text: #fffffe;
     --main-background: #232946;
+    --seconday: #f25f4c;
 
 }
 
@@ -70,7 +71,7 @@ body {
 input {
     padding: 8px;
     border-radius: 5px;
-    border: 1px solid var(--green);
+    border: 1px solid var(--button);
 }
 
 #submit {
@@ -120,7 +121,7 @@ h2 {
 }
 
 #video {
-    width: 100%;
+    width: 70%;
 }
 
 .product-image {
@@ -137,10 +138,18 @@ h2 {
     background-image: url(https://www.classicdriver.com/sites/default/files/cars_images/54694/SA-0012069/6a4e14b32b6adde9263336bad83944db.jpeg);
 }
 
+.product2 {
+    background-image: url(https://images1.bonhams.com/image?src=Images/live/2014-04/04/8965295-1-23.jpg);
+}
+
+.product3 {
+    background-image: url(https://assets.carandclassic.com/listing-assets/vauxhall/astra-gte/1983-vauxhall-astra-gte-nRNjKn-v2/7mF9soQY2EaM0idPfsgSDjJRMUTvaKta99pLDCmL.jpg?ar=16%3A9&auto=compress&fit=crop&h=450&ixlib=php-4.1.0&q=75&w=800&s=253e2fbe63704b6f5a332437485430b4);
+}
+
 .card {
     background-color: var(--background);
     border-radius: 10px;
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-bottom: 10px;
 
@@ -220,21 +229,21 @@ h2 {
 @media only screen and (450px <= width) {
     .card {
         display: flex;
-        max-width: 525px;
+        max-width: 700px;
     }
     .inner-card {
         width: 300px;
         padding: 20px;
     }
     .product-image {
-        height: 400px;
+        height: 300px;
         border-radius: 10px 0 0 10px;
     }
 }
 
-@media only screen and (width >=1000px) {
+@media only screen and (width >=900px) {
     #video {
-        width: 70%;
+        width: 60%;
     }
     .product-cards {
         display: flex;
